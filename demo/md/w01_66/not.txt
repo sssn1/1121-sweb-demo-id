@@ -1,0 +1,3 @@
+git config --global user.email "212427066@o365.tku.edu.tw"
+
+git config --global user.name "Sssn1"
