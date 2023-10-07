@@ -1,20 +1,58 @@
 body{
-    background-color: rgb(215, 228, 228);
+    background-color: #ffffff;
 }
 
 .card{
-    background-color: rgb(76, 126, 126);
-    border: 2px solid purple;
+    background-color: #ffffff;
+    border: 2px solid transparent;
     max-width: 300px;
     padding: 24px 32px;
     margin: 32px;
     text-align: center;
+    border-radius: 10px;
 }
+
+
+.card-1{
+    border-color: #631e3a;
+}
+
+
+.card-2{
+    border-color:rgb(25, 87, 180);
+}
+
 
 .icon{
     width: 40px;
     height: 40px;
-    background-color: aquamarine;
+    
     border-radius: 50%;
     margin: 0 auto;
+}
+
+.card-1 .icon{
+    background-color: aquamarine;
+}
+
+.card-2 .icon{
+    border-color: rgb(21, 90, 194);
+}
+
+.btn {
+    text-transform: capitalize;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: transparent;
+
+}
+
+.btn-1{
+    background-color: rgb(99, 107, 219) ;
+    color:  aquamarine;
+}
+
+.btn-2{
+    background-color: rgb(118, 95, 219);
+    color: rgb(21, 90, 194);
 }
