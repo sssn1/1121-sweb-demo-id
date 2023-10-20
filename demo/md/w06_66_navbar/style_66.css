@@ -113,6 +113,16 @@ Navbar
    padding-bottom: 3px;
 }
 
+.navbar-fixed {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: var(--clr-white);
+   box-shadow: var(--light-shadow);
+   z-index: 2;
+}
+
 /*
 ======
 Blogs
@@ -210,4 +220,17 @@ Blogs
   .blogs-center {
     grid-template-columns: repeat(6, 1fr);
   }
+}
+
+/*
+=====
+w2
+=====
+*/
+.container {
+   background-attachment:  #050505;
+   max-width: 700px;
+   width: 80%;
+   border: 2px solid #070606;
+   padding: 16px 30px 16px 30px;
 }
