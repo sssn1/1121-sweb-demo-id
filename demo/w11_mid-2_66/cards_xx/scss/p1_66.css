@@ -21,7 +21,7 @@ body {
 }
 .cards .cards-center {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /* gap: 0.5rem; */
   width: var(--fluid-width);
   max-width: var(--max-width);
@@ -77,10 +77,4 @@ body {
 .cards .card .btn.btn-2 {
   background: #ecf4ff;
   color: #68a3ff;
-}
-
-@media screen and (min-width: 500px) {
-  .cards .cards-center {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}/*# sourceMappingURL=p2_66.css.map */
+}/*# sourceMappingURL=p1_66.css.map */
