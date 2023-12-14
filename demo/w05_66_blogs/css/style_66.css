@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary:rgb(101, 50, 50);
+  --primary-dark:rgb(108, 8, 8);
+  --grey:#64748b;
+  --grey-light:rgb(214, 192, 192);
+  --grey-dark:rgb(55, 54, 54);
+  --border-radius:0.5rem;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+  color: var(--grey-dark);
+  background-color: var(--grey-light);
+}
+
+.img {
+  width: 100%;
+  height: 15rem;
+  display: block;
+  object-fit: cover;
+}
+
+.blogs {
+  padding: 3rem 1.2rem;
+}
+.blogs section-title h2 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+.blogs .blogs-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.blogs .blogs-center2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 2rem;
+}
+.blogs .blog {
+  background-color: white;
+  padding: 0.75rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: var(--border-radius);
+}
+.blogs .blog-content {
+  margin-top: 0.5rem;
+}
+.blogs .blog-content span {
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 1.5px;
+}
+.blogs .blog-content h3 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.blogs .blog-content p {
+  color: var(--grey);
+  margin-bottom: 0.5rem;
+}
+.blogs .blog-content a {
+  text-transform: capitalize;
+  color: var(--primary-dark);
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 500px) {
+  .blogs .blogs-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 800px) {
+  .blogs .blogs-center {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  .blogs .blogs-center {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .blogs .blogs-center {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .blogs .blogs-center {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style_66.css.map */
