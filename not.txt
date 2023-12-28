@@ -2,7 +2,7 @@ git config --global user.email "212427066@o365.tku.edu.tw"
 
 git config --global user.name "Sssn1"
 
-git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-12-09"
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-12-14"
 
 
 
@@ -26,4 +26,4 @@ git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2023-12-09"
 
 
 
-$ sass --watch demo/w12_portfolio_66/scss:demo/w12_portfolio_66/css
+$ sass --watch demo/w15_portfolio_66/scss:demo/w15_portfolio_66/css
